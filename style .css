@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    padding-top: 50px;
+}
+.container{
+    width: 1000px;
+    height: 500px;
+    align-items: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 20px;
+    
+}
+ .box{
+    width: 260px;
+    padding:10px ;
+    margin: auto;
+    
+    
+}
+.box h3{
+    width: 400px;
+    margin: auto;
+    padding-top: 15px;
+}
+.icon{
+    font-size:xx-large;
+    padding-left: 60px;
+}
